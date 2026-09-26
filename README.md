@@ -11,7 +11,7 @@ I first cleaned and prepared the dataset using Jupyter Notebook, dealing with is
 * [Header](#header)  
 * [Dataset](#dataset)  
 * [Technologies Used](#technologies-used)  
-* [Installation](#installation)  
+ 
 
 
 ---
