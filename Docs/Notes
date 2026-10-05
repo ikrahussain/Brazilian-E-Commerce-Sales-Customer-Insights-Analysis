@@ -1,0 +1,157 @@
+Absolutely. Based on everything you've provided so far, here is a **complete summary report** that brings all the sections together in a clear academic style. You can use this as the main written report for your project.
+
+ # Brazilian E-Commerce Data Analysis Project — Summary Report
+
+ ## 1\. Introduction
+
+ This project focuses on analysing the **Brazilian E-Commerce Public Dataset by Olist**, which contains real-world, anonymised data from an online marketplace in Brazil. The dataset includes information about customers, orders, products, sellers, payments, reviews, and delivery.
+
+ The purpose of the project was to transform raw e-commerce data into meaningful insights that could help understand **sales performance, customer behaviour, product categories, customer locations, and delivery performance**.
+
+ The project followed a complete data analysis process, starting with data cleaning in **Jupyter Notebook**, followed by data analysis using **MySQL**, and finally data visualisation and dashboard development using **Power BI**.
+
+---
+
+ ## 2\. Dataset
+
+ The dataset was obtained from the **Brazilian E-Commerce Public Dataset by Olist** on Kaggle.
+
+ The dataset consists of **8 tables** with different numbers of rows and columns. The Customers dataset contains **99,441 rows and 5 columns**, Orders contains **99,441 rows and 8 columns**, Order Items contains **112,650 rows and 7 columns**, Payments contains **103,886 rows and 5 columns**, Reviews contains **99,224 rows and 7 columns**, Products contains **32,951 rows and 9 columns**, Sellers contains **3,095 rows and 4 columns**, and Categories contains **71 rows and 2 columns**.
+
+ The main columns used during the analysis included `order_id`, `customer_id`, `order_status`, `order_purchase_timestamp`, `order_delivered_customer_date`, `order_estimated_delivery_date`, `product_id`, `seller_id`, `price`, `freight_value`, `payment_type`, `payment_value`, `review_score`, and `product_category_name`.
+
+ These columns provided information that could be used to investigate sales, customers, products, payments, delivery, and customer satisfaction.
+
+---
+
+ ## 3\. Motivation
+
+ I chose this dataset because it represents a **real-world e-commerce environment** and contains a large amount of information that can be analysed from different perspectives. I wanted to work with a dataset that was complex enough to develop my practical data analysis skills while also allowing me to investigate meaningful business questions.
+
+ The dataset was particularly useful because it contains multiple related tables. This allowed me to practise working with relationships between datasets and using SQL joins to combine information from different areas of an e-commerce business.
+
+---
+
+ ## 4\. Objectives
+
+ The main objective of the project was to analyse the Olist e-commerce data and identify useful patterns and trends.
+
+ The analysis aimed to answer questions such as:
+
+ - How many orders and customers are represented in the dataset?
+- How is revenue distributed across product categories?
+- Which Brazilian states have the highest number of orders?
+- How does revenue change over time?
+- What is the average order value?
+- What is the average delivery time?
+- What patterns can be identified in customer and purchasing behaviour?
+- How could the findings provide useful information for an e-commerce business?
+
+---
+
+ ## 5\. Data Cleaning and Preprocessing
+
+ The initial data preparation was completed using **Jupyter Notebook and Python**.
+
+ The datasets were inspected to identify potential dataSQL was used to perform the main analysis of the cleaned data. SQL queries and joins were used to combine information from the different tables and calculate quality issues before being analysed. The preprocessing included checking for **missing values and duplicate records**, reviewing data types, and ensuring that date fields were correctly formatted.
+
+ The relationships between the different datasets were also examined using key fields such as `order_id`, `customer_id`, `product_id`, and `seller_id`. This was important because the dataset consisted of multiple related tables rather than one single dataset.
+
+ After the cleaning and preparation process was completed, the datasets were imported into **MySQL** for further analysis.
+
+---
+
+ ## 6\. Data Analysis
+
+ MySQL was used to perform the main analysis of the cleaned data. SQL queries and joins were used to combine information from the different tables and calculate important business metrics.
+
+ The analysis focused on areas including **total orders, revenue, customers, product categories, customer locations, and delivery performance**.
+
+ The results were then transferred into Power BI, where they could be presented through interactive visualisations and dashboard elements.
+
+---
+
+ ## 7\. Findings and Insights
+
+ The Power BI dashboard provided an overview of the main results of the analysis.
+
+ The dashboard showed approximately **99K total orders** and **96K customers**, with approximately **135K in total revenue** based on the measures used in the dashboard. The **average order value was 1.37**, while the **average delivery time was 12.09 days**.
+
+ ### Revenue by Product Category
+
+ The Revenue by Product Category visualisation was used to compare revenue across different product categories. The results showed that revenue was distributed across a wide range of categories, including **agro industry and commerce, air conditioning, art, arts and crafts, audio, auto, and baby products**.
+
+ This visualisation made it possible to compare categories and identify differences in their contribution to overall revenue.
+
+ ### Revenue Over Time
+
+ The Revenue Over Time visualisation was created to examine revenue across the available time period. This provided a way of identifying patterns in e-commerce activity over time and understanding how revenue changed throughout the dataset.
+
+ ### Orders by Customer State
+
+ The Orders by Customer State visualisation showed differences in the number of orders between Brazilian states. **São Paulo (SP)** had the highest number of orders shown on the dashboard, followed by **Rio de Janeiro (RJ)** and **Minas Gerais (MG)**.
+
+ This demonstrates that customer orders were not evenly distributed geographically and that some states represented a much larger share of the orders.
+
+ ### Overall Performance
+
+ The key performance indicators in the Power BI dashboard provided a quick summary of the dataset:
+
+ - **Total Orders:** approximately 99K
+- **Total Revenue:** approximately 135K
+- **Average Order Value:** 1.37
+- **Total Customers:** approximately 96K
+- **Average Delivery Time:** 12.09 days
+
+ These metrics provided a high-level overview of the e-commerce activity represented in the dataset.
+
+---
+
+ ## 8\. Visualisations
+
+ Power BI was used to communicate the findings through several visualisations, including:
+
+ - **KPI cards** showing total orders, revenue, average order value, customers, and average delivery days.
+- **Bar charts** comparing revenue across product categories.
+- **Time-based charts** showing revenue over time.
+- **Bar charts** showing the distribution of orders across Brazilian states.
+
+ The dashboard made the results easier to understand by allowing different aspects of the dataset to be compared visually rather than relying only on tables of numbers.
+
+---
+
+ ## 9\. Conclusion
+
+ Overall, the project successfully demonstrated the process of taking a large, real-world dataset through the stages of **data cleaning, analysis, and visualisation**.
+
+ The analysis provided insights into **sales performance, customer distribution, product categories, revenue, and delivery performance**. One of the main geographical findings was that São Paulo had the highest number of orders among the states shown in the dashboard. The analysis also showed that the business had approximately 99K orders, 96K customers, 135K in revenue, and an average delivery time of 12.09 days.
+
+ The project demonstrates how data analysis tools can be combined to turn raw data into information that is easier to understand and communicate. **Jupyter Notebook** was useful for data cleaning and preparation, **MySQL** allowed the data to be queried and analysed efficiently, and **Power BI** provided an effective way to communicate the results through visualisations and dashboards.
+
+---
+
+ ## 10\. Recommendations and Further Analysis
+
+ The analysis could be developed further by investigating the relationship between **delivery times and customer review scores**. This could help determine whether longer delivery times are associated with lower customer satisfaction.
+
+ Further analysis could also investigate:
+
+ - Which product categories generate the highest revenue.
+- Which sellers have the highest sales or order volumes.
+- Which payment methods are most commonly used.
+- How customer review scores vary between product categories.
+- How sales and orders change by month or year.
+- Whether there are differences in delivery performance between Brazilian states.
+- Customer purchasing behaviour and repeat purchases.
+
+ The Power BI dashboard could also be expanded with additional filters and interactive features, allowing users to explore the results by **product category, state, seller, payment type, and time period**.
+
+---
+
+ ## 11\. Learning Outcomes
+
+ This project helped me develop practical skills across the full data analysis process. I learned how to work with a **large, multi-table dataset**, clean and prepare data using **Python in Jupyter Notebook**, and use **SQL and MySQL** to query, join, and analyse data.
+
+ I also developed my skills in **Power BI**, particularly in creating dashboards, KPI cards, charts, and visualisations that communicate findings clearly.
+
+ Most importantly, the project helped me understand how the different stages of data analysis work together: **raw data → cleaning → analysis → visualisation → insights**. It also improved my ability to identify patterns in data and communicate analytical findings in a clear and structured way.
